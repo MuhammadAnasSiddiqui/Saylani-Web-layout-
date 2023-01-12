@@ -102,7 +102,7 @@
 }
 /* .container4 styling */
 #cnt{
-    margin: 50px 380px;
+    margin: 50px 369px;
     font-size: 30px
 }
 .cont4parent{
@@ -218,23 +218,6 @@ display: flex;
     /* width: 40%; */
 }
 
-div#card img,h1 {
-    display: flex;
-    display: flex;
-}
-
-div#card {
-    width: 15%;
-    display: inline-block;
-    /* margin: 64px; */
-    margin: 0 0 0 3.5%;
-    width: 280px;
-    line-height: 38px;
-}
-
-div#card img {
-}
-
  .flexcontainer{
         display: flex;     
         margin-top: 30px;
@@ -347,9 +330,131 @@ border-radius: 100%
 .video{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: px;
   
 }
 .video iframe{border: 2px solid #fff;
-border-radius: 5px}
+border-top-left-radius: 10px;
+border-top-right-radius: 10px
+}
+.font{
+    font-size: 25px;
+    text-align: center
+}
+.newsheading{
+text-align: center;
+margin-top: 40px
+}
+/* newscontainer styling */
+.newsgrand{
+ display: flex;
+justify-content: center; 
+ margin-top: 40px   
+}
+.newsparent{ 
+    
+  display: flex; 
+ /* justify-content: space-around;  */
+ /* background-size: cover ; */
+  gap: 15px;  
+     height: 225px;  
+}
+.news1{
+background-image: url(./Assets/jpeg.jpg);
+background-repeat: no-repeat;
+ background-size: cover; 
+ width: 100%; 
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px 
+  
+ /* height: 500px;   */
+
+
+}
+.news2{
+background-image: url(./Assets/bankflood.jpg);
+background-repeat: no-repeat;
+ background-size: cover; 
+   width: 100%; 
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px
+   
+  /* height: 500px;    */
+}
+.news3{
+background-image: url(./Assets/class.jpg);
+background-repeat: no-repeat;
+ background-size: cover; 
+  width: 100%;   
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px
+ /* height: 500px;    */
+}
+.news1child1{
+    margin: 245px 10px;
+    line-height: 25px
+}
+.button{
+ background-color: #8dc63f;
+ color: white;
+ border-radius: 5px;
+ border: none;
+ padding: 5px 10px 
+}
+.arrow{
+background-color: white;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+padding: 5px 20px 
+}
+.guide-grand{
+    margin-top: 145px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.guide-parent{
+   
+    background-color: #0d6efd;
+    width: 90%;
+    background-image: url(./Assets/bg\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+
+}
+.guide-child1{
+color: white;
+text-align: center;
+font-size: 30px;
+margin-top: 50px;
+line-height: 65px
+}
+.guide-child2 input{
+font-size: 15px;
+padding: 10px 90px;
+background: none;
+border: 2px solid white;
+border-radius: 5px;
+
+
+}
+.guide-child3 button{
+    font-size: 15px;
+    padding: 10px 50px;
+    color: black;
+    border: 2px solid white;
+    border: none;
+    border-radius: 5px
+}
+#inputbtn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px; 
+}
